@@ -1,19 +1,22 @@
 {
   "name": "vue-capacitor-tailwind-pwa",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/berhalak/vue-capacitor-tailwind-pwa.git"
+  "dependencies": {
+    "@capacitor/android": "2.4.6",
+    "vue": "^3.0.5"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/berhalak/vue-capacitor-tailwind-pwa/issues"
-  },
-  "homepage": "https://github.com/berhalak/vue-capacitor-tailwind-pwa#readme"
+  "devDependencies": {
+    "@capacitor-community/electron": "^1.3.3",
+    "@capacitor/cli": "^2.4.6",
+    "@capacitor/core": "^2.4.6",
+    "@vitejs/plugin-vue": "^1.1.4",
+    "@vue/compiler-sfc": "^3.0.5",
+    "vite": "^2.0.1",
+    "vite-plugin-pwa": "^0.5.2"
+  }
 }
